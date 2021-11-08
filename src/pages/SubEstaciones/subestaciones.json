@@ -1,0 +1,26 @@
+[
+    {
+        "nombreEstacion": "Río Jamundi",
+        "zona": "Zona Valle Sur",
+        "ciudad": "Jamundi",
+        "numeroFallas": "99"
+    },
+    {
+        "nombreEstacion": "Río Jamundi1",
+        "zona": "Zona Valle Sur",
+        "ciudad": "Jamundi",
+        "numeroFallas": "99"
+    },
+    {
+        "nombreEstacion": "Río Jamundi2",
+        "zona": "Zona Valle Sur",
+        "ciudad": "Jamundi",
+        "numeroFallas": "99"
+    },
+    {
+        "nombreEstacion": "Río Jamundi3",
+        "zona": "Zona Valle Sur",
+        "ciudad": "Jamundi",
+        "numeroFallas": "99"
+    }
+]

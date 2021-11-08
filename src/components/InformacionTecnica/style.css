@@ -1,0 +1,36 @@
+.sega_divider2{
+    width: auto;
+}
+
+p{
+    padding: 2.14rem !important;
+    margin: 0;
+    width: -webkit-fill-available;
+    height: min-content;
+}
+
+.sega_informacionTecnicaInternalContainer{
+    display: flex;
+}
+
+.col-sm-4{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2.85rem !important;
+}
+
+.col-sm-8{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+}
+
+.container{
+    margin: 0 !important;
+    max-width: -webkit-fill-available !important;
+}
+
+.sega_informacionTecnicaContainer{
+    border-radius: 5px;
+}

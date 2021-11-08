@@ -1,0 +1,120 @@
+.sega_marginLeft-icon {
+    margin-left: 0.7rem;
+}
+
+.sega_marginRight-icon {
+    margin-right: 0.7rem;
+}
+
+.sega_select {
+    width: 100%;
+}
+
+.sega_select select {
+    width: 100%;
+}
+
+.sega_select select option {
+    width: 100%;
+}
+
+.sega_select::after {
+    position: absolute !important;
+    right: 1rem;
+    top: 50%;
+}
+
+.sega_select-alt-icon::after {
+    content: "\e5d7" !important;
+}
+
+.col {
+    margin: 0.5rem;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.container {
+    background-color: #fafafa;
+    padding-top: 2rem !important;
+    width: 100%;
+    height: 100%;
+}
+
+.sega_card-panel {
+    background-color: #ffffff;
+}
+
+.sega_button i {
+    font-size: 1rem !important;
+}
+
+.sega_button {
+    display: flex;
+    vertical-align: baseline !important;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+}
+
+.sega_registroCambiador-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sega_registroCambiador-buttons .sega_button {
+    margin: 0.35rem !important;
+}
+
+.sega_registroCambiador-buttons .sega_button {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.sega_registroCambiador-buttons .sega_chip {
+    padding: 0.28rem;
+}
+
+.sega_registroCambiador-buttons .sega_chip i {
+    margin: 0 !important;
+}
+
+.sega_registroCambiador-panel {
+    border-radius: 5px;
+}
+
+.sega_registroCambiador-panel .sega_card-panel {
+    padding-bottom: 0.78rem;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.sega_registroCambiador-panel-info {
+    padding-left: 1.42rem;
+    padding-right: 1.42rem;
+}
+
+.sega_registroCambiador-panel-info > * {
+    display: block;
+    padding-bottom: 0.5rem;
+}
+
+.sega_registroCambiador-panel-info {
+    padding-bottom: 1.35rem;
+}
+
+.sega_registroCambiador > * {
+    padding-bottom: 2rem;
+}
+
+.sega_breadcrumb{
+    margin-left: 0;
+}

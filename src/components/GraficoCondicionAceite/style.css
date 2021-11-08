@@ -1,0 +1,26 @@
+.sega_divider2 {
+    width: auto;
+}
+
+p {
+    padding: 2.14rem !important;
+    margin: 0;
+    width: -webkit-fill-available;
+    height: min-content;
+}
+
+.container {
+    margin: 0 !important;
+    max-width: -webkit-fill-available !important;
+}
+
+.sega_graficoCondicionAceiteGrafico {
+    display: flex;
+    justify-content: center;
+    padding:  2.42rem;
+}
+
+.sega_graficoCondicionAceiteContainer{
+    width: fit-content;
+    border-radius: 5px;
+}

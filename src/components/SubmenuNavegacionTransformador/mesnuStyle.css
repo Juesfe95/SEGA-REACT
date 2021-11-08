@@ -1,0 +1,17 @@
+ul.navega li{
+    display: inline;
+    margin-right: 2%;
+    cursor:pointer;
+}
+
+ul.navega li :hover{
+    border-bottom:  2px #000 solid;
+    padding-bottom: 0.5%;
+}
+
+ul{
+    margin-top: 2%;
+}
+.sega_breadcrumb {
+    margin-top: 2rem !important;
+}

@@ -1,0 +1,17 @@
+.sega_breadcrumb {
+  margin-top: -1rem !important;
+}
+
+.navega {
+  margin-left: -1.7rem !important;
+}
+.sega_card-panel{
+    border-radius: 0.5rem;
+}
+.navega li a b, .navega li a b:hover{
+  text-decoration: none !important;
+  color: #242424 !important;
+}
+.navega li a{
+  text-decoration: none;
+}

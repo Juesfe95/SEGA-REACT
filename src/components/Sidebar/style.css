@@ -1,0 +1,160 @@
+
+.offcanvas-start {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
+    width: 16.5rem !important;
+}
+
+.offcanvas-body {
+    padding: 0px !important;
+}
+
+.btn {
+    padding: 0px !important;
+}
+.dropdown-item {
+    padding: 0px !important;
+}
+.dropdown-menu.show {
+    position: relative !important;
+    transform: translate3d(0px, 0px, 0px) !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+.dropdown-toggle::after {
+    content: "expand_more";
+    -webkit-font-feature-settings: "liga";
+    font-family: "Material Icons Outlined";
+    border: none !important;
+    position: absolute;
+}
+.sega_sidebar-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+.sega_dropdown-toggle#sega_dropdown-basic {
+    background-color: white;
+    color: #007934;
+    border: none;
+    width: 100%;
+    text-align: left;
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#sidebar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 3.57rem;
+    height: 100%;
+    transition: all 300ms linear;
+}
+
+.sega_sidebar-container {
+    width: auto;
+    white-space: pre;
+    display: block;
+}
+
+.sega_menubar {
+    width: 100%;
+    height: 100%;
+}
+
+.sega_menubar:hover {
+    width: auto;
+    left: 0px;
+}
+
+.sega_menubar:hover .sega_sidebar-container .sega_sidebar i,
+.sega_menubar:hover ~ .sega_sidebar-container .sega_sidebar i {
+    margin-right: 0.57rem !important;
+}
+
+i.material-icons.sega_icon-right {
+    font-size: 1.8rem;
+}
+
+.sega_sidebar-container .sega_sidebar {
+    padding: 1rem !important;
+    width: -webkit-fill-available !important;
+    display: flex !important;
+    text-align: left;
+    vertical-align: baseline;
+    align-items: center !important;
+    height: inherit;
+    justify-content: flex-start;
+}
+
+.sega_sidebar-container.sega_sidebar-dropdownItem .sega_sidebar {
+    background-color: #f1f1f1;
+    /* button disabled color */
+}
+
+.sega_sidebar-container.sega_sidebar-dropdownItem .sega_sidebar:active {
+    background-color: #151515;
+    /* button pressed color */
+}
+
+.sega_sidebar p {
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+    display: inline-block;
+}
+
+.sega_sidebar {
+    width: -webkit-fill-available !important;
+    display: flex !important;
+    align-items: baseline !important;
+}
+
+.sega_sidebar-container .sega_sidebar i.sega_icon-right {    
+    margin-left: auto !important;
+}
+
+.sega_sidebar-container .sega_sidebar:active {
+    height: inherit;
+}
+
+.offcanvas-header {
+    padding: 0 !important;
+    display: block !important;
+    width: auto;
+    height: 6.5rem;
+}
+
+.sega_menubar-header {
+    width: 100%;
+    height: 100%;
+    padding: 1.21rem;
+    cursor: pointer;
+}
+
+button.btn-close {
+    display: none;
+}
+
+.sega_menubar-closed .sega_sidebar-container .sega_sidebar i{
+    margin: 0 !important;
+}
+
+.sega_menubar-closed{
+    background-color: #FAFAFA;
+    /* white color */
+    position: fixed;
+    height: 100%;
+    bottom: 0px
+}
+
+.dropdown-toggle::after{
+    content: "";
+}

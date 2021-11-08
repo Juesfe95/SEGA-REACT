@@ -1,0 +1,114 @@
+body {
+  background-color: #f1f1f1;
+}
+
+.dashboardPrincipal {
+  margin-left: 5.5rem;
+  width: 90%;
+}
+
+.sega_switch_col {
+  display: flex;
+  align-items: center;
+}
+
+.sega_switch {
+  margin-right: 1.2rem;
+}
+
+.sega-box-switch {
+  display: flex;
+  font-weight: 500;
+  font-size: 0.85rem;
+}
+
+.sega-box-switch b {
+  margin-top: -6px;
+  margin-left: 15px;
+  padding-right: 6px;
+}
+
+.sega_button-main {
+  padding: 0.5rem 0.4rem !important;
+}
+
+i.material-icons.sega_icon-right {
+  font-size: 1.2rem !important;
+}
+
+.material-icons {
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: 'liga';
+  -moz-font-feature-settings: 'liga';
+  font-feature-settings: 'liga';
+}
+
+.criticality-list {
+  display: inline-flex !important;
+  text-align: center;
+  margin-left: 26rem;
+}
+
+.margin-fixer-right {
+  margin-right: 0px !important;
+}
+
+.very-high-color {
+  color: #ff9393;
+}
+
+.high-color {
+  color: #ffdb69;
+}
+
+.medium-color {
+  color: #ffffa3;
+}
+
+.low-color {
+  color: #9eca80;
+}
+
+.pieGraficaTorta {
+  background-color: #fafafa;
+  text-align: center;
+  border-bottom: 1px solid #F3F1F1;
+}
+
+.imgPieTortaTrafo {
+  width: 4rem;
+  height: 4rem;
+  background-image: url(../../img/TrafoBlanco.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 2rem;
+}
+
+.imgPieTortaDescargador {
+  width: 4rem;
+  height: 4rem;
+  background-image: url(../../img/DpsBlanco.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 2rem;
+}
+
+.sega_divider2 {
+  background-color: #f6f6f6;
+}
+
+.sega_dashboard-depth {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+.tituloGraficaTorta {
+  text-align: left;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.mystyle{
+  display: none;
+}

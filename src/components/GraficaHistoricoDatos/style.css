@@ -1,0 +1,29 @@
+.sega_graficaHistoricoDatosInternalContainer{
+    display: flex;    
+}
+
+.sega_graficaHistoricoDatosContainer{
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.sega_button-secondary{
+    height: fit-content !important;
+    width: 100%;    
+    text-align: left;
+    vertical-align: bottom !important;
+}
+
+.sega_graficaHistoricoDatosGrafico{
+    padding: 2.42rem;
+}
+
+.sega_graficaHistoricoDatosInternalMenu{
+    display: flex;
+    flex-direction: column;
+}
+
+.sega_graficaHistoricoDatosInternalMenu{
+    padding: 2.42rem;
+}
+

@@ -1,0 +1,271 @@
+.offcanvas-start {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
+    width: 16.5rem !important;
+}
+
+.offcanvas-body {
+    padding: 0px;
+}
+
+.btn {
+    padding: 0px !important;
+}
+
+.dropdown-item {
+    padding: 0px !important;
+}
+
+.sega_dropdown-menu-sidebar.show {
+    position: relative !important;
+    transform: translate3d(0px, 0px, 0px) !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+
+.dropdown-toggle::after {
+    content: "expand_more";
+    -webkit-font-feature-settings: "liga";
+    font-family: "Material Icons Outlined";
+    border: none !important;
+    position: absolute;
+}
+
+.sega_sidebar-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.sega_dropdown-toggle#sega_dropdown-basic {
+    background-color: white;
+    color: #007934;
+    border: none;
+    width: 100%;
+    text-align: left;
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#sidebar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 3.57rem;
+    height: 100%;
+    transition: all 300ms linear;
+}
+
+.sega_sidebar-container {
+    width: auto;
+    white-space: pre;
+    display: block;
+}
+
+.sega_menubar {
+    width: 100%;
+    max-height: none;
+}
+
+.sega_menubar:hover {
+    width: auto;
+    left: 0px;
+}
+
+.sega_menubar:hover .sega_sidebar-container .sega_sidebar i, .sega_menubar:hover~.sega_sidebar-container .sega_sidebar i {
+    margin-right: 0.57rem !important;
+}
+
+i.material-icons.sega_icon-right {
+    font-size: 1.8rem;
+}
+
+.sega_sidebar-container .sega_sidebar {
+    padding: 0.8rem !important;
+    width: -webkit-fill-available !important;
+    display: flex !important;
+    text-align: left;
+    vertical-align: baseline;
+    align-items: center !important;
+    height: inherit;
+    justify-content: flex-start;
+}
+
+.sega_sidebar-container.sega_sidebar-dropdownItem .sega_sidebar {
+    background-color: #f1f1f1;
+    /* button disabled color */
+}
+
+.sega_sidebar-container.sega_sidebar-dropdownItem .sega_sidebar:active {
+    background-color: #151515;
+    /* button pressed color */
+}
+
+.sega_sidebar p {
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+    display: inline-block;
+}
+
+.sega_sidebar {
+    width: -webkit-fill-available !important;
+    display: flex !important;
+    align-items: baseline !important;
+}
+
+.sega_sidebar-container .sega_sidebar i.sega_icon-right {
+    margin-left: auto !important;
+}
+
+.sega_sidebar-container .sega_sidebar:active {
+    height: inherit;
+}
+
+.offcanvas-header {
+    padding: 0 !important;
+    display: block !important;
+    width: auto;
+    height: 6.8rem;
+}
+
+.sega_menubar-header {
+    width: 100%;
+    height: 100%;
+    padding: 1.61rem;
+    cursor: pointer;
+}
+
+button.btn-close {
+    display: none;
+}
+
+.sega_menubar-closed .sega_sidebar-container .sega_sidebar i {
+    margin: 0 !important;
+}
+
+.sega_menubar-closed {
+    background-color: #FAFAFA;
+    position: absolute;
+    height: 100%;
+    bottom: 0px
+}
+
+.dropdown-toggle::after {
+    content: "";
+}
+
+.sega_dropdown-menu-trigger {
+    padding-top: 2.28rem;
+    padding-bottom: 2.28rem;
+    padding-left: 3.21rem;
+    padding-right: 3.21rem;
+}
+
+.sega_dropdown-menu-trigger .btn-primary {
+    color: #FAFAFA;
+    background-color: #242424;
+    border: none;
+}
+
+.sega_dropdown-menu-trigger .btn-primary:focus {
+    color: #FAFAFA;
+    background-color: #242424;
+    border: none;
+    box-shadow: none;
+}
+
+.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
+    color: #FAFAFA;
+    background-color: #242424;
+    border: none;
+    box-shadow: none;
+}
+
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.sega_navbar-dropdown-menu {
+    min-width: 70% !important;
+    text-align: left;
+    position: absolute !important;
+    border: none !important;
+    border-radius: 0 !important;
+    float: right;
+    padding: 0.5rem;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sega_navbar-dropdown-menu a {
+    padding: 0.5rem !important;
+}
+
+.sega_navbar-dropdown-menu.dropdown-item:focus, .dropdown-item:active {
+    border: 2px solid transparent;
+    color: #FAFAFA !important;
+    font-weight: 600;
+    background-color: #383838;
+    text-decoration: none !important;
+}
+
+.sega_dropdown-menu-item.dropdown-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.sega_dropdown-menu-item.dropdown-item>* {
+    padding-right: 0.5rem;
+}
+
+.sega_navbar-dropdown-menu.show {
+    position: absolute !important;
+}
+
+.sega_sidebar-dropdown-link {
+    color: #383838;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sega_sidebar-dropdown-link:hover {
+    color: #242424;
+}
+
+.sega_sidebar:active>* {
+    color: #FAFAFA;
+}
+.sega_sidebar-dropdown-item .sega_sidebar {
+    background-color: #f1f1f1;
+}
+
+.sega_dropdown-menu-sidebar.dropdown-menu.show {
+    padding: 0 !important;
+}
+
+.sega_menubar .sega_menubar-header {
+    max-height: none;
+}
+
+.sega_dropdown-toggle-block {
+    display: none;
+    width: 0.5rem;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.show.dropdown .sega_dropdown-toggle-block {
+    display: block;
+}
